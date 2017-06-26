@@ -1,3 +1,6 @@
+
+/*Home*/
+
 body {
   margin: 0;
 }
@@ -19,6 +22,10 @@ li {
   box-shadow: 0 3px 6px #cbced3;
   z-index: 2;
 
+}
+
+.clearfix{
+  clear: both;
 }
 
 #menu {
@@ -89,7 +96,6 @@ h2 {
   color: #337EA6;
   margin-top: 77.8px;
 }
-
 
 #news {
   float: left;
@@ -163,7 +169,8 @@ ul {
   font-family: Alegreya Sans SC;
   font-size: 12px;
   clear: both;
-  margin-top: 700px;
+  margin-top: 50px;
+
 }
 
 #footer p{
@@ -172,4 +179,41 @@ ul {
   width: 1024px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Contact Additions*/
+
+.blue {
+  color: #1071A3;
+}
+
+.location {
+  margin-top: 33px;
+  float: left;
+  width: 100%;
+  min-width: 1024px;
+}
+
+.location_img {
+  float: left;
+  display: inline-block;
+  width: 528px;
+  height: 282px;
+
+}
+
+.background {
+  float: right;
+  background-image: url("Images/contactbackground.jpg");
+  width: 48.5%;
+  height: 282px;
+  display: table;
+}
+
+.location p {
+  font-family: Abel;
+  font-size: 30px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }

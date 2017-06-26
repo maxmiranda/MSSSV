@@ -1,0 +1,37 @@
+
+
+
+.location {
+  margin-top: 33px;
+}
+
+.location_img {
+  float: left;
+  display: inline-block;
+  width: 528px;
+  height: 282px;
+
+}
+
+.background {
+  float: right;
+  display: inline-block;
+  background-image: url("../Images/contactbackground.jpg");
+
+}
+
+p {
+  font-family: Abel;
+  font-size: 30px;
+}
+
+#footer {
+  background-color: #353232;
+  width: 100%;
+  min-width: 1024px;
+  color: white;
+  font-family: Alegreya Sans SC;
+  font-size: 12px;
+  clear: both;
+  margin-top: 700px;
+}
