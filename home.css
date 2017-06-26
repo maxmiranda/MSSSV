@@ -162,10 +162,11 @@ ul {
   color: white;
   font-family: Alegreya Sans SC;
   font-size: 12px;
-  padding-left: 32px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  bottom: 0;
   clear: both;
   margin-top: 700px;
+}
+
+#footer p{
+  padding: 32px;
+  margin: 0;
 }
