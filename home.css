@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+#header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  min-width: 1024px;
+  box-shadow: 0 3px 6px #cbced3;
+  z-index: 2;
+
+}
+
+#menu {
+  height: 93px;
+
+}
+
+#logo {
+  margin-left: 70px;
+  margin-top: 22px;
+  height: 58px;
+  width: 159px;
+  float: left;
+}
+
+#selected {
+  text-align: center;
+  color: white;
+  background-color: #00659B;
+  box-shadow: 0 2px 4px;
+  opacity: .43;
+}
+
+nav a {
+  margin-top: 30px;
+  margin-left: 3.5%;
+  line-height: 36px;
+  font-family: Lato;
+  font-weight: 300;
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+  height: 38px;
+  border-radius: 6px;
+  padding: 0 4px;
+}
+
+#between {
+  margin-top: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 800px;
+  z-index: 0;
+}
+
+.main {
+  width: 100%;
+  box-shadow: 17px 17px #9DC5D8;
+
+}
+
+h2 {
+  font-family: Gurmukhi MN;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  background-color: rgba(0,0,0,.53);
+  padding: 4px 10px;
+  color: white;
+  margin-top: 127.3px;
+  position: absolute;
+  z-index: 1;
+
+}
+
+#blue {
+  color: #337EA6;
+  margin-top: 77.8px;
+}
+
+
+#news {
+  float: left;
+  width: 50%;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 36px;
+
+}
+
+ul {
+  padding-left: 0px;
+}
+
+#news li {
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 300;
+    color: #00659B;
+    background-color: #F7F7F7;
+    width: 100%;
+    margin-top: 15px;
+    display: table;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%
+
+
+}
+
+#news img {
+  margin-left: 16px;
+  padding-top: 10px;
+  height: 80px;
+  width: 140px;
+
+
+}
+
+#news p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px
+}
+
+#contactus {
+  float: right;
+  width: 50%;
+}
+
+.contact_img {
+  width: 95%;
+  box-shadow:15px 15px #E2E2E2;
+  margin-left: 24px;
+}
+
+#westchester{
+  margin-top: 5%;
+
+}
+
+#footer {
+  background-color: #353232;
+  width: 100%;
+  color: white;
+  font-family: Alegreya Sans SC;
+  font-size: 12px;
+  padding-left: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  bottom: 0;
+  clear: both;
+  margin-top: 700px;
+}
