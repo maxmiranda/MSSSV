@@ -158,6 +158,7 @@ ul {
 #footer {
   background-color: #353232;
   width: 100%;
+  min-width: 1024px;
   color: white;
   font-family: Alegreya Sans SC;
   font-size: 12px;
