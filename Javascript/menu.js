@@ -1,8 +1,14 @@
+function offsetAnchor() {
+    if(location.hash.length !== 0) {
+        window.scrollTo(window.scrollX, window.scrollY -60);
+    }
+}
+
 $(document).ready(function() {
   $("#news li").hover(
     function() {
         $(this).stop().animate({
-          "background-color": "#191919",
+          "background-color": "#D3D3D3",
           "border-radius": "20"
         }, "medium")
     }, function() {
@@ -24,6 +30,7 @@ $(document).ready(function() {
             "color": "black"
         }, "slow")
     })
+
     $("#selected").hover(
       function() {
           $(this).stop().animate({
@@ -35,10 +42,11 @@ $(document).ready(function() {
           "opacity": ".43"
         }, "slow")
     })
+
   $('#practicemenu li').hover(
     function() {
       $(this).stop().animate({
-        "background-size": "120%"
+        "background-size": "105%"
       }, "slow")
 
     }, function() {
@@ -46,4 +54,45 @@ $(document).ready(function() {
         "background-size": "100%"
       }, "slow")
     })
+
+    $('#grayable img').hover(
+      function() {
+        $(this).stop().animate({
+          "width": "32%",
+          "height": "86px",
+          "filter":"none"
+        }, "slow")
+
+      }, function () {
+        $(this).stop().animate({
+          "width": "30%",
+          "height": "83px",
+          "filter":"grayscale(100%)"
+        }, "slow")
+      })
+
+    $('#practicemenu h2').hover(
+      function() {
+        $(this).stop().animate({
+          "color": "#4CC1FC"
+        }, "medium")
+
+      }, function () {
+
+      $(this).stop().animate({
+        "color": "white"
+      }, "medium")
+
+    })
+
+    $('a[href^="#"]').click(function(event) {
+  // Click events are captured before hashchanges. Timeout
+  // causes offsetAnchor to be called after the page jump.
+  window.setTimeout(function() {
+    offsetAnchor();
+  }, 0);
+});
+  window.addEventListener("hashchange", offsetAnchor);
+
 })
+window.setTimeout(offsetAnchor, 0);

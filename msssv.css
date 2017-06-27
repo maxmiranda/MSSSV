@@ -3,6 +3,8 @@
 
 body {
   margin: 0;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
 
 a {
@@ -15,7 +17,7 @@ li {
 
 #header {
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0;
   background-color: white;
   min-width: 1024px;
@@ -64,7 +66,7 @@ nav a {
 }
 
 #between {
-  margin-top: 34px;
+  padding-top: 117px;
   margin-left: auto;
   margin-right: auto;
   max-width: 1024px;
@@ -74,7 +76,10 @@ nav a {
 
 .main {
   width: 100%;
+  height: 440px;
+  background-size: cover;
   box-shadow: 17px 17px #9DC5D8;
+  background-image: url("http://www.fretzin.com/wp-content/uploads/2013/12/page-img-003-attorney.jpg")
 
 }
 
@@ -86,10 +91,10 @@ h2 {
   background-color: rgba(0,0,0,.53);
   padding: 4px 10px;
   color: white;
-  margin-top: 127.3px;
-  position: absolute;
   z-index: 1;
-
+  float: left;
+  clear:both;
+  margin-top: 0;
 }
 
 #blue {
@@ -207,9 +212,8 @@ ul {
 }
 
 .background {
-  float: right;
   background-image: url("Images/contactbackground.jpg");
-  width: 48.5%;
+  width: 48%;
   height: 282px;
   display: table;
 }
@@ -220,6 +224,7 @@ ul {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  line-height: .9
 }
 
 .location p a {
@@ -236,6 +241,7 @@ ul {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 #aboutimg {
@@ -245,9 +251,10 @@ ul {
 .font40 {
   font-size: 40px;
   right: 0;
+  margin-top: 10%;
 }
 
-#abouttext {
+#text {
   font-size: 24px;
   font-family: ABeeZee;
   color: black;
@@ -255,10 +262,9 @@ ul {
   margin-right: 50px;
   margin-left: 50px;
   clear: both;
-  margin-top: 510px;
 }
 
-.abouttitle {
+.title {
   color: #0465A2;
   font-family: Lato;
   font-weight: 300;
@@ -296,17 +302,83 @@ ul {
 }
 
 #practicemenu h2 {
-  font-size: 40px;
-  margin-top:  20px;
+  font-size: 30px;
+  margin-top:  30px;
+  float: left;
 }
-
 
 #practicemenu li {
   width: 100%;
   height: 110px;
   margin-top: 2px;
+  background-size: 100%;
+  float: left;
+  display: inline-block;
 }
 
-#practicemenu ul:nth-child(odd) {
-  text-align: right;
+#practicemenu li:nth-child(odd) h2 {
+  float: right;
+}
+
+#practicemenu li:last-child li{
+  margin-bottom: 70px;
+}
+
+#civilrightsimg {
+  background-image: url("Images/civilrights.jpg");
+  clear: both;
+}
+
+#seminarsimg {
+  background-image: url("Images/seminars.jpg")
+}
+
+#insuranceimg {
+  background-image: url("Images/insurance.jpg")
+}
+#casualtyimg {
+  background-image: url("Images/casualty.jpg")
+}
+
+#professionalliabilityimg {
+  background-image: url("Images/professionalliability.jpg")
+}
+
+.practiceh2 {
+  margin-top: 5%;
+  font-size: 36px;
+}
+
+.practiceimg{
+  height: 475px;
+}
+
+div p br {
+  display: block;
+  margin: 15px 0;
+  content: " "
+}
+
+#CivilRights {
+  margin-top: 640px;
+}
+
+#civilrightsanchor {
+  margin-top: 80px;
+}
+
+/*Clients Additions */
+
+#grayableimgs img {
+  margin-top: 100px;
+  filter: grayscale(100%);
+  width: 30%;
+  margin-right: 2%;
+  height: 83px;
+  display: inline-block;
+
+}
+
+.color {
+  filter : grayscale(0%);
 }
