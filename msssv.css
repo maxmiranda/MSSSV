@@ -187,6 +187,10 @@ ul {
   color: #1071A3;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .location {
   margin-top: 33px;
   float: left;
@@ -216,4 +220,93 @@ ul {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+}
+
+.location p a {
+  color: black;
+}
+
+/* About Additions */
+
+.mainimg {
+  width: 100%;
+  height: 475px;
+  float: left;
+  min-width: 800px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#aboutimg {
+  background-image: url("Images/aboutusoffice.jpg");
+}
+
+.font40 {
+  font-size: 40px;
+  right: 0;
+}
+
+#abouttext {
+  font-size: 24px;
+  font-family: ABeeZee;
+  color: black;
+  line-height: 40px;
+  margin-right: 50px;
+  margin-left: 50px;
+  clear: both;
+  margin-top: 510px;
+}
+
+.abouttitle {
+  color: #0465A2;
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 40px;
+
+}
+
+.link {
+  color: #1071A3;
+  text-decoration: underline;
+}
+
+.overflowhidden {
+  overflow-x: hidden;
+}
+
+#civilrightsmenu {
+  background-image: url("Images/civilrightsmenu.jpg")
+}
+
+#seminarsmenu {
+  background-image: url("Images/seminarsmenu.jpg")
+}
+
+#insurancemenu {
+  background-image: url("Images/insurancemenu.jpg")
+}
+
+#casualtymenu {
+  background-image: url("Images/casualtymenu.jpg")
+}
+
+#professionalliabilitymenu{
+  background-image: url("Images/professionalliabilitymenu.jpg")
+}
+
+#practicemenu h2 {
+  font-size: 40px;
+  margin-top:  20px;
+}
+
+
+#practicemenu li {
+  width: 100%;
+  height: 110px;
+  margin-top: 2px;
+}
+
+#practicemenu ul:nth-child(odd) {
+  text-align: right;
 }
