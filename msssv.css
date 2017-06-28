@@ -18,7 +18,6 @@ li {
 #header {
   width: 100%;
   position: fixed;
-  top: 0;
   background-color: white;
   min-width: 1024px;
   box-shadow: 0 3px 6px #cbced3;
@@ -112,7 +111,9 @@ h1 {
     text-align: center;
     font-family: Lato;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -251,7 +252,8 @@ ul {
 .font40 {
   font-size: 40px;
   right: 0;
-  margin-top: 10%;
+  margin-top: 20%;
+
 }
 
 #text {
@@ -303,13 +305,12 @@ ul {
 
 #practicemenu h2 {
   font-size: 30px;
-  margin-top:  30px;
-  float: left;
+  margin-top:  20px;
 }
 
 #practicemenu li {
   width: 100%;
-  height: 110px;
+  height: 90px;
   margin-top: 2px;
   background-size: 100%;
   float: left;
@@ -360,7 +361,7 @@ div p br {
 }
 
 #CivilRights {
-  margin-top: 640px;
+  margin-top: 540px;
 }
 
 #civilrightsanchor {
@@ -368,17 +369,20 @@ div p br {
 }
 
 /*Clients Additions */
-
 #grayableimgs img {
-  margin-top: 100px;
-  filter: grayscale(100%);
-  width: 30%;
-  margin-right: 2%;
-  height: 83px;
+  margin-left: 7.3%;
   display: inline-block;
-
 }
 
-.color {
-  filter : grayscale(0%);
+
+#row1 {
+  margin-top: 43px;
+}
+
+#row2, #row3, #row4 {
+  margin-top: 100px;
+}
+
+#row4 img:nth-child(2) {
+  margin-left: 15%
 }

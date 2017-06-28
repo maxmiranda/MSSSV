@@ -1,6 +1,6 @@
 function offsetAnchor() {
     if(location.hash.length !== 0) {
-        window.scrollTo(window.scrollX, window.scrollY -60);
+        window.scrollTo(window.scrollX, window.scrollY - 40);
     }
 }
 
@@ -54,22 +54,6 @@ $(document).ready(function() {
         "background-size": "100%"
       }, "slow")
     })
-
-    $('#grayable img').hover(
-      function() {
-        $(this).stop().animate({
-          "width": "32%",
-          "height": "86px",
-          "filter":"none"
-        }, "slow")
-
-      }, function () {
-        $(this).stop().animate({
-          "width": "30%",
-          "height": "83px",
-          "filter":"grayscale(100%)"
-        }, "slow")
-      })
 
     $('#practicemenu h2').hover(
       function() {
