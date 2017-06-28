@@ -1,6 +1,6 @@
 function offsetAnchor() {
     if(location.hash.length !== 0) {
-        window.scrollTo(window.scrollX, window.scrollY - 40);
+        window.scrollTo(window.scrollX, window.scrollY -40);
     }
 }
 
