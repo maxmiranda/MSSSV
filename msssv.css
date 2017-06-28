@@ -370,8 +370,26 @@ div p br {
 
 /*Clients Additions */
 #grayableimgs img {
-  margin-left: 7.3%;
+}
+
+#grayableimgs li {
+  width: 33%;
   display: inline-block;
+  text-align: center;
+  float: left;
+  height: 180px;
+}
+
+@media only screen and (max-width: 800px) {
+    #grayableimgs li {
+      width: 50%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #grayableimgs li {
+      width: 100%;
+    }
 }
 
 
